@@ -1,1 +1,1 @@
-web: gunicorn SWANSONAPI.wsgi
+web: gunicorn quotes.wsgi --log-file
